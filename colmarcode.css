@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h2{
+    display: flex;
+}
+nav.logo{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: rgb(0, 255, 34);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+   
+}
+
+nav ul{
+    float: right;
+    justify-content: space-between;
+}
+nav li{
+display: inline-block;
+list-style: none;
+}
+
+nav li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    
+    text-decoration: none;
+}
